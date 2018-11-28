@@ -8,8 +8,8 @@
 * clone到本地
 * 把oauthdb.sql倒入数据库
 * 设置每个工程sring-servlet.xml中的数据库配置
-* 分别启动resourceServer，authServer，client工程
-* 访问localhsot:8080/client
+* 分别启动resourceServer，authServer，client工程（Maven选项卡中点击Plugins->jetty->jetty:run）
+* 访问localhost:8080/client
 
 > 建议优先理解一下阮老师的文章[理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
