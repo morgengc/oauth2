@@ -6,8 +6,8 @@
 
 # 应用
 * clone到本地
-* 把oauthdb.sql倒入数据库
-* 设置每个工程sring-servlet.xml中的数据库配置
+* 在MySQL中新建oauthdb数据库，把oauthdb.sql导入MySQL数据库
+* 设置每个工程spring-servlet.xml中的数据库配置
 * 分别启动resourceServer，authServer，client工程（Maven选项卡中点击Plugins->jetty->jetty:run）
 * 访问localhost:8080/client
 
